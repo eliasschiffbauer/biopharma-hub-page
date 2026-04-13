@@ -1,6 +1,3 @@
-# PharmaExcipients.com -- BioPharma Hub
-
-Dedicated "BioPharma Excipients" section at pharmaexcipients.com/biopharma, extending the PE brand into biologics, biosimilars, and advanced therapies.
 
 ## Status
 
@@ -9,15 +6,6 @@ Active
 ## Last Updated
 
 2026-04-12
-
-## Key Contacts
-
-- Philippe -- PE operator/owner, LinkedIn thought leadership
-- Elias -- Strategy, content pipeline, technical implementation
-
-## Quick Context
-
-PharmaExcipients.com is a WordPress-based (JNews + WooCommerce) B2B information and sourcing portal. The biopharma hub creates a dedicated sub-section with its own visual identity (teal accent), challenge-first content architecture, and function/modality-based navigation -- while sharing the same WordPress install.
 
 ## Workstreams
 

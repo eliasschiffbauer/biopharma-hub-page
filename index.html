@@ -61,7 +61,7 @@
   .biopharma-subnav a.active::after { content: ''; position: absolute; bottom: 0; left: 12px; right: 12px; height: 2px; background: var(--teal-400); border-radius: 1px; }
 
   /* Hero banner */
-  .hero { position: relative; background: var(--pe-blue-dark); overflow: hidden; padding: 72px 24px 64px; }
+  .hero { position: relative; background: var(--pe-blue-dark); overflow: hidden; padding: 40px 24px 36px; }
   .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 20% 80%, rgba(16,185,129,0.15) 0%, transparent 70%), radial-gradient(ellipse 60% 50% at 80% 20%, rgba(48,90,140,0.25) 0%, transparent 70%); pointer-events: none; }
   .hero::after { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle 1px at center, rgba(16,185,129,0.15) 0%, transparent 100%); background-size: 48px 48px; opacity: 0.5; pointer-events: none; }
   .hero-inner { max-width: var(--max-width); margin: 0 auto; position: relative; z-index: 1; text-align: center; }
@@ -75,7 +75,7 @@
   .hero p { font-size: 17px; color: var(--slate-400); max-width: 660px; margin: 0 auto; line-height: 1.7; animation: fadeInUp 0.7s ease-out 0.2s both; }
 
   /* Shop search banner */
-  .shop-banner { background: #9a9a99; margin-top: 8px; padding: 40px 24px; text-align: center; }
+  .shop-banner { background: #9a9a99; margin-top: 8px; padding: 24px 24px; text-align: center; }
   .shop-banner-inner { max-width: 720px; margin: 0 auto; }
   .shop-banner h2 { font-size: 22px; font-weight: 700; color: var(--white); margin-bottom: 20px; }
   .shop-search { display: flex; gap: 0; max-width: 540px; margin: 0 auto; }
@@ -239,10 +239,6 @@
 <!-- HERO BANNER -->
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-badge">
-      <span class="dot"></span>
-      BioPharma Excipients Hub
-    </div>
     <h1>Excipients for <span class="accent">Biologics, Biosimilars &amp; Advanced Therapies</span></h1>
     <p>Challenge-first resources for formulation scientists. Stabilize your mAb,<br>optimize your LNP, or find injectable-grade materials - all in one place.</p>
   </div>
@@ -394,13 +390,6 @@
   <aside class="sidebar">
 
     <div class="sidebar-card">
-      <h3>📥 Technical Downloads</h3>
-      <a href="#" class="download-item"><div class="download-icon"><img src="images/icon-pdf.svg" alt="PDF"></div><div><div class="download-title">Excipient Selection Guide for mAb Formulation</div><div class="download-type">PDF Guide &middot; 24 pages</div></div></a>
-      <a href="#" class="download-item"><div class="download-icon"><img src="images/icon-pdf.svg" alt="PDF"></div><div><div class="download-title">Top Excipients in Marketed Biologics 2026</div><div class="download-type">Benchmark Report &middot; 18 pages</div></div></a>
-      <a href="#" class="download-item"><div class="download-icon"><img src="images/icon-pdf.svg" alt="PDF"></div><div><div class="download-title">LNP Formulation Decision Tree</div><div class="download-type">Interactive Flowchart &middot; PDF</div></div></a>
-    </div>
-
-    <div class="sidebar-card">
       <h3>🔥 Trending Challenge-First Articles</h3>
       <ul class="trending-list">
         <li><span class="trending-num">01</span><span class="trending-text"><a href="#">How to prevent PS80 degradation in high-conc mAb formulations</a></span></li>
@@ -409,6 +398,13 @@
         <li><span class="trending-num">04</span><span class="trending-text"><a href="#">Selecting the right ionizable lipid for LNP stability at scale</a></span></li>
         <li><span class="trending-num">05</span><span class="trending-text"><a href="#">Sourcing low-endotoxin excipients for parenteral biologics</a></span></li>
       </ul>
+    </div>
+
+    <div class="sidebar-card">
+      <h3>📥 Technical Downloads</h3>
+      <a href="#" class="download-item"><div class="download-icon"><img src="images/icon-pdf.svg" alt="PDF"></div><div><div class="download-title">Excipient Selection Guide for mAb Formulation</div><div class="download-type">PDF Guide &middot; 24 pages</div></div></a>
+      <a href="#" class="download-item"><div class="download-icon"><img src="images/icon-pdf.svg" alt="PDF"></div><div><div class="download-title">Top Excipients in Marketed Biologics 2026</div><div class="download-type">Benchmark Report &middot; 18 pages</div></div></a>
+      <a href="#" class="download-item"><div class="download-icon"><img src="images/icon-pdf.svg" alt="PDF"></div><div><div class="download-title">LNP Formulation Decision Tree</div><div class="download-type">Interactive Flowchart &middot; PDF</div></div></a>
     </div>
 
     <div class="sidebar-card webinar-card">
